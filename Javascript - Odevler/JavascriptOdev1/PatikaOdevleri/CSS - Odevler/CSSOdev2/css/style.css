@@ -1,0 +1,56 @@
+.imgbox {
+ text-align: center;
+}
+
+.box2 {
+background-color:#EEEEEE;
+width: 90%;
+text-align: center;
+align-items: center;
+margin: auto;
+}
+
+.box3 {
+
+    margin:3px auto;
+    width: 90%;
+    text-align: center;
+    display:flex;
+    }
+
+.box3a {
+        background-color:#7EE5DA;
+        width: 40%;
+}
+    
+.box3b {
+        background-color:#70CCC2;
+        width: 20%;
+}
+
+.box3c {
+        background-color:#62B3AA;
+        width:40%;
+}
+
+.lastparagraph {
+    text-align: center;
+}
+
+#searchbox {
+    width:20%;
+}
+
+.box2 p {
+    margin:0;
+}
+.box3a p {
+    margin: 10px 0px 0px 0px;
+}
+.box3b p {
+    margin: 10px 0px 0px 0px;
+}
+
+.box3c p {
+    margin: 0;
+}

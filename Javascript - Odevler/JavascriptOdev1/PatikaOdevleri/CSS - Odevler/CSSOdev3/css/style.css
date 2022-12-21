@@ -1,0 +1,99 @@
+body {
+
+    margin: 0px;
+    background-color:#202124;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+body a {
+
+    text-decoration: none;
+    color:whitesmoke;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+}
+
+.ustkisim {
+
+    text-align: end;
+    margin: 1.25em;
+}
+
+.ortakisim {
+
+    text-align: center;
+    margin-top: 10%;
+}
+
+.searchbox {
+
+    border:1px solid gray;
+    background-color: rgba(0,0,0,0);
+    width: 40em;
+    height: 3em;
+    border-radius: 50px;
+    color:white;
+}
+
+.searchbox:hover {
+
+    background-color:#303134;
+
+}
+
+.box-search {
+
+    margin:1em;
+
+}
+
+.ustkisim button {
+    
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+    background-color: rgba(0,0,0,0);
+    border:none;
+}
+
+.ortakisim button {
+
+    box-shadow: 0 1px 3px rgba(23,23,23,0.24);
+    background-color: #303134;
+    border:none;
+    color: #e8eaed;
+    margin:1em;
+    padding-inline:1.25em;
+    padding-block: 0.75em;
+}
+.ortakisim button:hover {
+    border: 1px solid #5f6368;
+}
+
+footer {
+    
+    color: #999da2;
+    background: #171717;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+.ustfooter {
+    border-bottom: 1px solid #3c4043;
+    padding: 1em;
+}
+
+.altfooter {
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+}
+
+footer a {
+    color: #999da2;
+}
+
+footer a:hover {
+text-decoration: underline;
+}
