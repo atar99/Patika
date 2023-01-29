@@ -26,3 +26,8 @@ CSS Ödevleri
 Bootstrap Ödevleri
 
     Bootstrap > Bootstrap - Ödev 1
+    
+    
+Javascript Ödevleri
+
+    Javascript > Javascript Odev 1
