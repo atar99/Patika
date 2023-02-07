@@ -35,5 +35,3 @@ Bootstrap Ödevleri
 Javascript Ödevleri
 
     Javascript > Javascript Odev 1
-    
-    Javascript > Javascript Odev 2
