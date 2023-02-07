@@ -1,0 +1,69 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  background-color: rgb(50,50,70);
+}
+.panelDiv{
+  background-color: royalblue;
+  height: 10em;
+  text-align: center;
+  padding-block: 1em;
+}
+.button{
+  height: 3em;
+  width: 7em;
+  background-color:saddlebrown;
+  border:0em;
+  color:aliceblue;
+  border-radius: 1em;
+}
+.textbox{
+width: 30em;
+height: 2.5em;
+border: 0;
+border-radius: 1em;
+background-color:rgb(100,100,140);
+color:aliceblue;
+}
+.listDiv{
+  height: fit-content;
+  background-color: slateblue;
+  text-align: center;
+}
+.listeElemanAlani{
+  justify-content: space-between;
+}
+.listeElemanAlani li{
+  border: 0.1em solid rebeccapurple;
+  padding: 0.3em;
+  list-style-type: none;
+}
+.listeElemanAlani li:hover{
+  border: 0.1em solid rgb(166, 81, 250);
+  color: aliceblue;
+  padding: 0.3em;
+}
+.seciliEleman{
+  background-color: steelblue;
+}
+.uyariDiv{
+  background-color:cornflowerblue;
+  width: 20em;
+  height: 5em;
+  position: fixed;
+  right:1em;
+  visibility: hidden;
+
+  color:aliceblue;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.siliciButton{
+  width: 2em;
+  height: 2em;
+  border:0;
+  border-radius: 1em;
+}
