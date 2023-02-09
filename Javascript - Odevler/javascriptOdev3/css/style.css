@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(50,50,70);
+}
+header{
+    text-align: center;
+    color:orange;
+    font-family: 'Dancing Script', cursive;
+}
+
+
+.panelDiv{
+    width:fit-content;
+    display:flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+.panel-button{
+    height: 3em;
+    width: 7em;
+    border:0;
+    border-radius: 1em;
+    background-color: chocolate;
+    color:aliceblue;
+    margin: 1em;
+}
+.panel-button:hover{
+    background-color: salmon;
+}
+
+.menuDiv{
+    width: 80%;
+    height: fit-content;
+    display: grid;
+    grid-template-columns: 45% 45%;
+    justify-content: space-around;
+    margin: 0 auto;
+    background-color: cadetblue;
+}
+.menu-card{
+    height:15em;
+    width: 100%;
+    background-color: rgb(182, 168, 154);
+    border:0;
+    border-radius: 1em;
+    margin-block: 1em;
+    display: flex;
+}
+.menu-cardImageSpan{
+    width: 30%;
+    height: fit-content;
+    margin: auto;    
+}
+.menu-cardImageImg{
+    border-radius: 1em;
+    border:0.25em solid rgb(112, 84, 55);
+    width: 200px;
+    height: 200px;
+}
+.menu-cardContent{
+    width: 60%;
+    height: fit-content;
+    margin: 0 auto;
+}
+.menu-cardContent-header{
+    color:crimson;
+    border-bottom: 0.1em solid tomato;
+    display:flex;
+    justify-content: space-between;
+    margin-block: 1em;
+}
